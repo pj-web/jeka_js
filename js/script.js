@@ -145,7 +145,20 @@
 // Задача №16.1
 // Получить в переменную элемент с атрибутом data-say-hi
 // и прочитать значение этого атрибута
-const element = document.querySelector('#data-say-hi');
-console.log(element);
+// const element = document.querySelector('[data-say-hi="yes"]');
+// console.log(element);
+// const attr = element.getAttribute('data-say-hi');
+// alert(attr);
+
+// Задача №16.2
+// Получить в переменную элемент с текстом Йончи
+const yenchi = document.querySelectorAll('li')[1];
+console.log(yenchi);
+
+// Задача №16.3
+// Получить в переменную коллекцию элементов с классом like
+
+// Задача №16.4
+// Куда добавится <li>Текст</li>
 
 
