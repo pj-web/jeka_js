@@ -152,11 +152,13 @@
 
 // Задача №16.2
 // Получить в переменную элемент с текстом Йончи
-const yenchi = document.querySelectorAll('li')[1];
-console.log(yenchi);
+// const yenchi = document.querySelectorAll('li')[1];
+// console.log(yenchi);
 
 // Задача №16.3
 // Получить в переменную коллекцию элементов с классом like
+const elements = document.querySelectorAll('.like');
+console.log(elements);
 
 // Задача №16.4
 // Куда добавится <li>Текст</li>
